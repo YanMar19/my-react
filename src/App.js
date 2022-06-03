@@ -1,6 +1,8 @@
 import './App.css';
 import LoginControl from './LoginControl';
+import Count from './CountHooks';
 import Clock from './Clock';
+import { ClockHooks } from './ClockHooks';
 import FilterableProductTable from './FilterableProductTable';
 
 function App() {
@@ -17,6 +19,14 @@ function App() {
   return (
     <div className="App">
       <header>
+        <div>
+          <Count />
+        </div>
+        <hr />
+        <div>
+          <ClockHooks />
+        </div>
+        <hr />
         <div>
           <Clock />
         </div>
