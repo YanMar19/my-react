@@ -2,7 +2,7 @@ import './App.css';
 import LoginControl from './LoginControl';
 import Count from './CountHooks';
 import Clock from './Clock';
-import { ClockHooks } from './ClockHooks';
+import { MyClock, ClockHooks } from './ClockHooks'
 import FilterableProductTable from './FilterableProductTable';
 
 function App() {
@@ -25,6 +25,10 @@ function App() {
         <hr />
         <div>
           <ClockHooks />
+        </div>
+        <hr />
+        <div>
+          <MyClock />
         </div>
         <hr />
         <div>
